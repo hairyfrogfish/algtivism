@@ -3,22 +3,29 @@
  */
 
 * {
-	font-family: 'Josefin Slab', serif;
+    font-family: 'Josefin Slab', serif;
+
+    text-align: center;
+}
+
+body {
+    background: #e1faf4;
 }
 
 .nav {
+
 	position: fixed;
 	top: 0;
 	padding: 1rem;
-	border-bottom: 1px solid black;
 	width: 100%;
-	background-color: white;
+	background-color: #66cdaa;
+	color: white;
 }
 
 .intro {
-	margin-top: 55px;
-	width: 80%;
+        margin-top: 55px;
 	padding: 2rem;
+	color: #33665e;
 }
 
 .content {
@@ -36,7 +43,7 @@
 .example img {
 	width: 500px;
 	padding-bottom: .5rem;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #33665e;
 }
 
 .number {
